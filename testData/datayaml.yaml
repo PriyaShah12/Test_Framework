@@ -1,0 +1,12 @@
+---
+data1:
+  goingfrom: Ahmedabad
+  goingto: Mumbai
+  date: 25/06/2022
+  stop: 1 Stop
+data2:
+  goingfrom: Hyderabad
+  goingto: Goa
+  date: 22/08/2022
+  stop: 2 Stop
+...
