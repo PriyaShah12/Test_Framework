@@ -47,6 +47,6 @@ def pytest_configure(config):
     config._metadata.pop("Plugins", None)
 
 def pytest_html_report_title(report):
-    report.title= "Priya Shah Automation Report"
+    report.title= "Automation Report by Priya Shah"
 
 
