@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from base.base_driver import BaseDriver
 from utilities.utils import Utils
 
+
 class SearchFlightResult(BaseDriver):
     non_stop_button="//p[@class='font-lightgrey bold'][contains(text(),'0')]"
     one_stop_button="//p[@class='font-lightgrey bold'][contains(text(),'1')]"

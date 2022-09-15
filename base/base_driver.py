@@ -18,7 +18,6 @@ class BaseDriver:
             new_height = self.driver.execute_script("return document.body.scrollHeight")
             if new_height == last_height:
                 break
-
             last_height = new_height
         time.sleep(5)
 
